@@ -1,0 +1,7 @@
+# (uncomment to add a dependency)
+dependencies:
+ - name: d3calendar
+   version: 3.5.17
+   src: htmlwidgets/lib
+   script: d3-3.5.17/d3.min.js
+   stylesheet: css/calendar.css
