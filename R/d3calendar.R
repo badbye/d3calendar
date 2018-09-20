@@ -1,9 +1,3 @@
-df = read.csv('inst/htmlwidgets/stock.csv')
-df$value = with(df, (Close - Open) / Open)
-df$label = sprintf('%s: %.2f%%', df$Date, 100 * df$value)
-d = data.frame(label=df$label, date=df$Date, value=df$value)
-
-
 #' Calendar Heatmap
 #'
 #' Plot a calendar heatmap base on D3.
