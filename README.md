@@ -9,12 +9,15 @@ devtools::install_github('badbye/d3calendar')
 
 ## Examples:
 
-```
+```R
 library(d3calendar)
 df = data.frame(date=as.Date('2018-01-01') + 0:364, value=rnorm(365))
 df$label = sprintf('%s: %.2f%%', df$date, df$value * 100)
 d3calendar(df)
 ```
+
+![example](screenshots/d3calendar_example.png)
+
 
 ## TODO: 
  
