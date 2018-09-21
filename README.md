@@ -7,7 +7,7 @@
 devtools::install_github('badbye/d3calendar')
 ```
 
-## Examples:
+## Usage
 
 ```R
 library(d3calendar)
@@ -16,7 +16,7 @@ df$label = sprintf('%s: %.2f%%', df$date, df$value * 100)
 d3calendar(df)
 ```
 
-![example](screenshots/d3calendar_example.png)
+<img src="screenshots/d3calendar_example.png" height="400px"/>
 
 
 ## TODO: 
